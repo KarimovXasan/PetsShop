@@ -1,0 +1,42 @@
+/* Inter font family */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    @apply max-w-1140 mx-auto px-5
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    background-color: #FDFDFD;
+}
+
+/* layer base */
+@layer base{
+    h1{
+        @apply text-5xl md:text-5xl lg:text-6xl font-extrabold 
+    }
+    h2{
+        @apply text-3xl md:text-4xl font-bold
+    }
+    h3{
+        @apply text-xl md:text-2xl font-bold
+    }
+    a{
+        @apply text-base text-dark-blue font-bold
+    }
+}
+
+/* layer components */
+@layer components{
+    .Join{
+        @apply py-2 px-5 text-white text-base font-bold bg-dark-blue rounded-full   
+    }
+    .transparetn{
+        @apply py-3 px-7 border border-dark-blue rounded-full
+    }
+}
