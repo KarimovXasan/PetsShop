@@ -5,7 +5,7 @@ const ProductPets = () => {
     return (
         <section>
             <div className="container py-16">
-                <div className='flex items-center justify-between'>
+                <div className='flex flex-col md:flex-row text-center md:text-start space-y-2 items-center justify-between py-5'>
                     <div>
                         <p>Whats new?</p>
                         <h3 className='text-blue'>Take a look at some of our pets</h3>

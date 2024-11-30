@@ -15,14 +15,14 @@ const Footer = () => {
                         ">Subcribe Now</button>
                     </div>
                 </div>
-                <div className='flex justify-between'>
-                    <ul className='flex items-center space-x-4 py-6'>
+                <div className='block md:flex justify-between'>
+                    <ul className='flex flex-col md:flex-row items-center space-x-0 space-y-4 md:space-y-0 md:space-x-4 py-6'>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Category</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
-                    <ul className='flex items-center space-x-4 py-6'>
+                    <ul className='flex flex-col md:flex-row items-center space-y-4 md:space-y-0 space-x-0 md:space-x-4 py-6'>
                         <li><a href="#"><i class="bi bi-facebook"></i></a></li>
                         <li><a href="#"><i class="bi bi-twitter"></i></a></li>
                         <li><a href="#"><i class="bi bi-instagram"></i></a></li>
@@ -30,9 +30,9 @@ const Footer = () => {
                     </ul>
                 </div>
                 <hr />
-                <div className='flex items-center justify-between py-10'>
+                <div className='block text-center space-y-7 md:flex md:text-start md:space-y-0 items-center justify-between py-10'>
                     <p>© 2022 Monito. All rights reserved.</p>
-                    <img src={logo} alt="Logotip" />
+                    <img className='mx-auto' src={logo} alt="Logotip" />
                     <p>Terms of Service          Privacy Policy</p>
                 </div>
             </div>

@@ -5,7 +5,7 @@ const OurProduct = () => {
     return (
         <section>
             <div className="container">
-                <div className='flex items-center justify-between py-5'>
+                <div className='flex flex-col md:flex-row text-center md:text-start space-y-2 items-center justify-between py-5'>
                     <div>
                         <p>Hard to choose right products for your pets?</p>
                         <h3 className='text-blue'>Our Products</h3>
